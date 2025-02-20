@@ -46,6 +46,20 @@ All algorithms are implemented in [_PyTorch_](https://pytorch.org/) and use the 
 
 ## Installation
 
+In this fork, on branch `uv` the recommended way to install is the following:
+
+```sh
+git clone https://github.com/ivarg/marl-book.git
+cd marl-book
+uv venv -p 3.11
+uv sync
+source .venv/bin/activate
+```
+
+End of fork installation guide.
+
+---
+
 We *strongly* suggest you use a virtual environment for the instructions below. A good starting point is [Miniconda](https://docs.conda.io/en/latest/miniconda.html), with which you would do:
 
 ```sh
